@@ -22,7 +22,9 @@ class Pistol extends React.Component {
                                     <>
                                         <li key={i}>
                                             {/* each pistol */}
-                                            <a href={`/pistols/${pistol.id}`}>{pistol.manufacturer}</a>
+                                            <a href={`/pistols/${pistol.id}`}>{pistol.manufacturer}:{pistol.model}</a>
+                                            
+                                            
                                             <br />
                                             {/* Edit */}
                                             <>

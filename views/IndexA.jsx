@@ -20,7 +20,8 @@ class Rifle extends React.Component {
                                     <>
                                         <li key={i}>
                                             {/* each rifle */}
-                                            <a href={`/rifles/${rifle.id}`}>{rifle.manufacturer}</a>
+                                            <a href={`/rifles/${rifle.id}`}>{rifle.manufacturer}:{rifle.model}</a>
+                                            
                                             <br />
                                             {/* Edit */}
                                             <>
